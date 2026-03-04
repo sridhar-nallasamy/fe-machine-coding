@@ -1,0 +1,55 @@
+.rootDiv {
+  height: 3rem;
+  width: 100vw;
+  border-bottom: 1px solid lightslategray;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  background-color: black;
+}
+
+.logoImg {
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.selectBox {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reactIcon,
+.jsIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.reactIcon {
+  fill: darkcyan;
+}
+
+.jsIcon {
+  fill: yellow;
+}
+
+.select {
+  height: 1.7rem;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  outline: none;
+  border: 1px solid green;
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .rootDiv {
+    height: 3.5rem;
+    padding: 0 1rem;
+  }
+}
