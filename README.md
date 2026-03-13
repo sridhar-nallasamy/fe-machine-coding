@@ -1,5 +1,34 @@
 <div align="right">
-  <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/refs/heads/main/assets/png/VGS.png" width="10%" alt="Logo" />
+  <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/refs/heads/main/assets/png/VGS.png" width="8%" alt="Logo" />
 </div>
 
-# FE Machine Coding Solutions
+# 🚀 FE Machine Coding Solutions
+
+[![Deploy to GitHub Pages](https://github.com/sridhar-nallasamy/fe-machine-coding/actions/workflows/deployment.yml/badge.svg?branch=main)](https://github.com/sridhar-nallasamy/fe-machine-coding/actions/workflows/deployment.yml)
+[![Built with Vite](https://img.shields.io/badge/Build_with-Vite-%23646CFF)](https://vitejs.dev/)
+[![Package Manager: pnpm](https://img.shields.io/badge/Package_manager-pnpm-orange)](https://pnpm.io/)
+
+A frontend machine coding round optimal solutions
+
+🔗 **[FE Machine Coding Live Page](https://sridhar-nallasamy.github.io/fe-machine-coding/)** 🏡
+
+**💻 Solution's Tech Stack:**
+
+<img src="https://img.shields.io/badge/React-1D2951?style=flat&logo=react" alt="React" />
+
+<img src="https://img.shields.io/badge/Typescript-1D2951?style=flat&logo=typescript" alt="Typescript" />
+
+---
+
+### 📑 Problems List
+
+| S.no. | Name          |                                   Live                                   |                     Code                      |
+| :---: | :------------ | :----------------------------------------------------------------------: | :-------------------------------------------: |
+|  `1`  | Auto Complete | [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/autoComplete) | [📝](./src/components/autoComplete/index.tsx) |
+|  `2`  | Calendar      |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/calendar)   |   [📝](./src/components/calendar/index.tsx)   |
+|  `3`  | Chrome Tab    |  [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/chromeTab)   |  [📝](./src/components/chromeTab/index.tsx)   |
+
+---
+
+$${Best \space Regards! \space 😊,}$$
+[$${Sridhar \space Nallasamy.}$$](https://google.com)
