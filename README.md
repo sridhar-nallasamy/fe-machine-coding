@@ -14,21 +14,26 @@ A frontend machine coding round optimal solutions
 
 **💻 Solution's Tech Stack:**
 
-<img src="https://img.shields.io/badge/React-1D2951?style=flat&logo=react" alt="React" />
-
-<img src="https://img.shields.io/badge/Typescript-1D2951?style=flat&logo=typescript" alt="Typescript" />
+- <img src="https://img.shields.io/badge/React-1D2951?style=flat&logo=react" alt="React" />
+- <img src="https://img.shields.io/badge/Typescript-1D2951?style=flat&logo=typescript" alt="Typescript" />
 
 ---
 
 ### 📑 Problems List
 
-| S.no. | Name          |                                   Live                                   |                     Code                      |
-| :---: | :------------ | :----------------------------------------------------------------------: | :-------------------------------------------: |
-|  `1`  | Auto Complete | [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/autoComplete) | [📝](./src/components/autoComplete/index.tsx) |
-|  `2`  | Calendar      |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/calendar)   |   [📝](./src/components/calendar/index.tsx)   |
-|  `3`  | Chrome Tab    |  [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/chromeTab)   |  [📝](./src/components/chromeTab/index.tsx)   |
+| S.no. | Name          |                                    Live                                    |                     Code                      |
+| :---: | :------------ | :------------------------------------------------------------------------: | :-------------------------------------------: |
+|  `1`  | Auto Complete | [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/autoComplete) | [📝](./src/components/autoComplete/index.tsx) |
+|  `2`  | Calendar      |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/calendar)   |   [📝](./src/components/calendar/index.tsx)   |
+|  `3`  | Chrome Tab    |  [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/chromeTab)   |  [📝](./src/components/chromeTab/index.tsx)   |
+|  `4`  | Draw Circle   |  [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/darwCircle)  |  [📝](./src/components/drawCircle/index.tsx)  |
 
 ---
 
-$${Best \space Regards! \space 😊,}$$
-[$${Sridhar \space Nallasamy.}$$](https://google.com)
+$${Best \space Regards! \space,}$$
+
+<div align='center'>
+
+[**Sridhar Nallasamy 😊**](https://sridhar-nallasamy.vercel.app/)
+
+ </div>
