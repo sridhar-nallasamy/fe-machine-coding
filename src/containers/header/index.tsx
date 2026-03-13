@@ -45,7 +45,7 @@ const Header = () => {
             className={styles.reactIcon}
             onClick={() => {
               window.open(
-                `https://github.com/sridhar-nallasamy/some-fe-stuffs/blob/main/src/components/${currentPath}/index.tsx`,
+                `https://github.com/sridhar-nallasamy/fe-machine-coding/blob/main/src/components/${currentPath}/index.tsx`,
                 '_blank',
               );
             }}

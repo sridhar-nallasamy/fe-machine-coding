@@ -40,13 +40,13 @@ const Label: React.FC<LabelFcProps> = ({
             onClick={() => addHandler(id, true)}
             disabled={isActionsDisabled}
           >
-            <CgFolderAdd />
+            <CgFolderAdd size={18} />
           </button>
           <button
             onClick={() => addHandler(id, false)}
             disabled={isActionsDisabled}
           >
-            <CgFileAdd />
+            <CgFileAdd size={18} />
           </button>
         </div>
       )}
@@ -56,7 +56,7 @@ const Label: React.FC<LabelFcProps> = ({
         }}
         disabled={isActionsDisabled}
       >
-        <CgTrash />
+        <CgTrash size={18} />
       </button>
     </div>
   );
