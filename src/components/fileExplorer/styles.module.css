@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.labelContainer {
+  margin: 0.5rem 0;
+  color: rgba(255, 255, 255, 0.671);
+
+  button {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  &,
+  div {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  &:hover {
+    color: white;
+  }
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  gap: 1rem;
+  margin-top: 2rem;
+
+  button {
+    padding: 0.2rem 0.5rem;
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+  input {
+    padding: 0.3rem 0.6rem;
+  }
+
+  div {
+    display: flex;
+    gap: 0.5rem;
+  }
+}

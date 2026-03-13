@@ -1,0 +1,46 @@
+.rootDiv {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.tabBG {
+  width: 30rem;
+  height: 6rem;
+  border-radius: 0.5rem;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+}
+
+.tabLabelBG {
+  background-color: darkgray;
+  border-radius: 1rem 1rem 0 0;
+  width: 93%;
+  height: 83%;
+}
+
+.curveLeft,
+.curveRight {
+  height: 24%;
+}
+
+.curveLeft > path,
+.curveRight > path {
+  fill: darkgray;
+}
+
+.curveLeft {
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 768px) {
+  .tabBG {
+    width: 90%;
+  }
+}
