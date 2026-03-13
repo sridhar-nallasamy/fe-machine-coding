@@ -15,7 +15,14 @@
 
 button {
   border-radius: 0.5rem;
-  border: 1px solid transparent;
+  border: 1px solid cyan;
+  cursor: pointer;
+  background-color: #1a1a1a;
+}
+
+button:disabled {
+  border-color: gray;
+  cursor: default;
 }
 
 button:focus,

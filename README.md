@@ -1,5 +1,5 @@
 <div align="right">
-  <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/refs/heads/main/assets/png/VGS.png" width="8%" alt="Logo" />
+  <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/refs/heads/main/assets/png/VGS.png" width="10%" alt="Logo" />
 </div>
 
 # 🚀 FE Machine Coding Solutions
@@ -27,12 +27,13 @@ A frontend machine coding round optimal solutions
 |  `2`  | Calendar      |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/calendar)   |   [📝](./src/components/calendar/index.tsx)   |
 |  `3`  | Chrome Tab    |  [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/chromeTab)   |  [📝](./src/components/chromeTab/index.tsx)   |
 |  `4`  | Draw Circle   |  [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/darwCircle)  |  [📝](./src/components/drawCircle/index.tsx)  |
+|  `5`  | File Explorer | [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/fileExplorer) | [📝](./src/components/fileExplorer/index.tsx) |
 
 ---
 
-$${Best \space Regards! \space,}$$
-
 <div align='center'>
+
+Best Regards!
 
 [**Sridhar Nallasamy 😊**](https://sridhar-nallasamy.vercel.app/)
 

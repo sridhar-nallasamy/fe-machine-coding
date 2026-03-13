@@ -12,13 +12,7 @@
 }
 
 .controllerDiv > button {
-  background-color: transparent;
-  padding: 0.5rem 1rem;
-  border-color: gray;
-}
-
-.controllerDiv > button:hover {
-  border-color: darkgray;
+  padding: 0.4rem 0.8rem;
 }
 
 .controllerDiv > span {

@@ -6,6 +6,7 @@ const AutoComplete = lazy(() => import('../components/autoComplete'));
 const Calendar = lazy(() => import('../components/calendar'));
 const ChromeTab = lazy(() => import('../components/chromeTab'));
 const DrawCircle = lazy(() => import('../components/drawCircle'));
+const FileExplorer = lazy(() => import('../components/fileExplorer'));
 
 const registry: Record<
   string,
@@ -33,6 +34,11 @@ const registry: Record<
     path: 'darwCircle',
     Component: DrawCircle,
     label: 'Draw Circle',
+  },
+  fileExplorer: {
+    path: 'fileExplorer',
+    Component: FileExplorer,
+    label: 'File Explorer',
   },
 };
 
