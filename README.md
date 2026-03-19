@@ -28,6 +28,8 @@ A frontend machine coding round optimal solutions
 |  `3`  | Chrome Tab    |  [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/chromeTab)   |  [📝](./src/components/chromeTab/index.tsx)   |
 |  `4`  | Draw Circle   |  [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/darwCircle)  |  [📝](./src/components/drawCircle/index.tsx)  |
 |  `5`  | File Explorer | [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/fileExplorer) | [📝](./src/components/fileExplorer/index.tsx) |
+|  `6`  | Font Select   |  [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/fontSelect)  |  [📝](./src/components/fontSelect/index.tsx)  |
+|  `7`  | Grid Layout   | [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/grailLayout)  | [📝](./src/components/grailLayout/index.tsx)  |
 
 ---
 
