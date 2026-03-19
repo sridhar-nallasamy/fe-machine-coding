@@ -7,6 +7,8 @@ const Calendar = lazy(() => import('../components/calendar'));
 const ChromeTab = lazy(() => import('../components/chromeTab'));
 const DrawCircle = lazy(() => import('../components/drawCircle'));
 const FileExplorer = lazy(() => import('../components/fileExplorer'));
+const FontSelect = lazy(() => import('../components/fontSelect'));
+const GrailLayout = lazy(() => import('../components/grailLayout'));
 
 const registry: Record<
   string,
@@ -39,6 +41,16 @@ const registry: Record<
     path: 'fileExplorer',
     Component: FileExplorer,
     label: 'File Explorer',
+  },
+  fontSelect: {
+    path: 'fontSelect',
+    Component: FontSelect,
+    label: 'Font Select',
+  },
+  grailLayout: {
+    path: 'grailLayout',
+    Component: GrailLayout,
+    label: 'Grail Layout',
   },
 };
 
