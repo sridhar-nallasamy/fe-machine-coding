@@ -9,6 +9,8 @@ const DrawCircle = lazy(() => import('../components/drawCircle'));
 const FileExplorer = lazy(() => import('../components/fileExplorer'));
 const FontSelect = lazy(() => import('../components/fontSelect'));
 const GrailLayout = lazy(() => import('../components/grailLayout'));
+const InfinityScroll = lazy(() => import('../components/infinityScroll'));
+const KanbanBoard = lazy(() => import('../components/kanbanBoard'));
 
 const registry: Record<
   string,
@@ -33,7 +35,7 @@ const registry: Record<
     label: 'Chrome Tab',
   },
   drawCircle: {
-    path: 'darwCircle',
+    path: 'drawCircle',
     Component: DrawCircle,
     label: 'Draw Circle',
   },
@@ -51,6 +53,16 @@ const registry: Record<
     path: 'grailLayout',
     Component: GrailLayout,
     label: 'Grail Layout',
+  },
+  infinityScroll: {
+    path: 'infinityScroll',
+    Component: InfinityScroll,
+    label: 'Infinity Scroll',
+  },
+  kanbanBoard: {
+    path: 'kanbanBoard',
+    Component: KanbanBoard,
+    label: 'Kanban Board',
   },
 };
 
