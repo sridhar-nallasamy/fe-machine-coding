@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+.boardColumnContainer {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.taskColumn {
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  min-width: 15rem;
+
+  h4 {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.taskCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid sandybrown;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem auto;
+  border-radius: 0.5rem;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
