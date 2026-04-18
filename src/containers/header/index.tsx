@@ -1,9 +1,9 @@
+import { FaReact } from 'react-icons/fa6';
+import { useLocation, useNavigate } from 'react-router';
+
 import styles from './styles.module.css';
 import VgsLogo from '../../assets/VGS.svg';
-import { useLocation, useNavigate } from 'react-router';
 import { registry } from '../../constants';
-import { FaReact } from 'react-icons/fa6';
-// import { FaJsSquare } from 'react-icons/fa';
 
 const Header = () => {
   const { pathname } = useLocation();

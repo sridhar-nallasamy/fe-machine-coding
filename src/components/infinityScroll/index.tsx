@@ -1,6 +1,7 @@
 import { type ReactElement, useCallback, useRef, useState } from 'react';
-import styles from './styles.module.css';
+
 import Scroll from './scroll';
+import styles from './styles.module.css';
 
 export type FetchDataFn = (
   q: string,

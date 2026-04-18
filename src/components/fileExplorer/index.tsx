@@ -1,6 +1,8 @@
 import { useCallback, useState } from 'react';
-import styles from './styles.module.css';
+
 import FileFolder from './FileFolder';
+import styles from './styles.module.css';
+
 import type { FileFolderFCProps, FileFolderProps } from './types';
 
 const initialData: FileFolderProps[] = [

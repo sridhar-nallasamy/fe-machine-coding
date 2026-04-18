@@ -1,8 +1,9 @@
-import { FaAngleDown } from 'react-icons/fa6';
-import styles from './styles.module.css';
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
-import useModalRoot from '../../hooks/useModalTree';
 import { createPortal } from 'react-dom';
+import { FaAngleDown } from 'react-icons/fa6';
+
+import styles from './styles.module.css';
+import useModalRoot from '../../hooks/useModalTree';
 
 const FontSelect = () => {
   const rootEl = useModalRoot();

@@ -1,7 +1,9 @@
 /* eslint-disable react-hooks/refs */
 import { useCallback, useEffect, useRef, useState } from 'react';
-import type { DataType, FetchDataFn, RenderItemFn } from '.';
+
 import styles from './styles.module.css';
+
+import type { DataType, FetchDataFn, RenderItemFn } from '.';
 
 const Scroll: React.FC<{
   query: string;

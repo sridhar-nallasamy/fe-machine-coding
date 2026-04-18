@@ -1,6 +1,7 @@
-import { useNavigate } from 'react-router';
-import styles from './styles.module.css';
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router';
+
+import styles from './styles.module.css';
 import VgsLogo from '../../assets/VGS.svg';
 
 const ErrorPage = () => {

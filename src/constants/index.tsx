@@ -1,5 +1,6 @@
-import { type RouteObject } from 'react-router';
 import { lazy } from 'react';
+
+import type { RouteObject } from 'react-router';
 
 const Home = lazy(() => import('../containers/home'));
 const AutoComplete = lazy(() => import('../components/autoComplete'));
