@@ -23,7 +23,7 @@ const DateMarker = () => {
         right: 3,
       }}
     >
-      <circle r={6} cx={8} cy={8} fill='red' />
+      <circle r={6} cx={8} cy={8} fill='lightgreen' />
     </svg>
   );
 };

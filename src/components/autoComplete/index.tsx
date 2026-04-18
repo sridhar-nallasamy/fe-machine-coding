@@ -62,46 +62,56 @@ const AutoComplete = () => {
 
   return (
     <div className={styles.container}>
-      <input
-        ref={inputRef}
-        type='text'
-        placeholder='Search...'
-        value={value}
-        onChange={onChange}
-        aria-label='input-box'
-        aria-controls='suggestions-list'
-        aria-autocomplete='list'
-        className={styles.inputBox}
-      />
-      {isApiLoading && <h4 className={styles.loading}>Loading...</h4>}
-      {showSuggestions ? (
-        <>
-          {suggestions.length ? (
-            <ul className={styles.listBox} id='suggestions-list' role='listbox'>
-              {suggestions.map((suggestion) => (
+      <div className={styles.wrapper}>
+        <input
+          ref={inputRef}
+          type='text'
+          placeholder='Search...'
+          value={value}
+          onChange={onChange}
+          aria-label='input-box'
+          aria-controls='suggestions-list'
+          aria-autocomplete='list'
+          className={styles.inputBox}
+        />
+        {isApiLoading && <h4 className={styles.loading}>Loading...</h4>}
+        {showSuggestions ? (
+          <>
+            {suggestions.length ? (
+              <ul
+                className={styles.listBox}
+                id='suggestions-list'
+                role='listbox'
+              >
+                {suggestions.map((suggestion) => (
+                  <li
+                    key={suggestion}
+                    className={styles.listOption}
+                    role='option'
+                    onClick={() => onSelect(suggestion)}
+                  >
+                    {suggestion}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <ul
+                className={styles.listBox}
+                id='suggestions-list'
+                role='listbox'
+              >
                 <li
-                  key={suggestion}
                   className={styles.listOption}
                   role='option'
-                  onClick={() => onSelect(suggestion)}
+                  style={{ cursor: 'default' }}
                 >
-                  {suggestion}
+                  No results!
                 </li>
-              ))}
-            </ul>
-          ) : (
-            <ul className={styles.listBox} id='suggestions-list' role='listbox'>
-              <li
-                className={styles.listOption}
-                role='option'
-                style={{ cursor: 'default' }}
-              >
-                No results!
-              </li>
-            </ul>
-          )}
-        </>
-      ) : null}
+              </ul>
+            )}
+          </>
+        ) : null}
+      </div>
     </div>
   );
 };

@@ -96,7 +96,7 @@ const MultiSelect = () => {
               aria-multiselectable
               className={styles.optionsBox}
               style={{
-                top: cords.top,
+                top: cords.top + 3,
                 left: cords.left,
                 width: cords.width,
               }}

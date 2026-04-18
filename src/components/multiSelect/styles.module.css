@@ -8,7 +8,7 @@
 .trigger {
   height: 2rem;
   width: 6rem;
-  border: 1px solid cyan;
+  border: 1px solid lightgreen;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -24,12 +24,23 @@
   position: absolute;
   border: 1px solid lightgreen;
   padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .optionItem {
   background-color: transparent;
   height: 1.5rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+  padding-left: 0.3rem;
+  border-radius: 0.3rem;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 
 .placeholder {

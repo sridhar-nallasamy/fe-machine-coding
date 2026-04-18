@@ -12,6 +12,11 @@
     border: 0;
     padding: 0;
     background-color: transparent;
+    color: rgba(144, 238, 144, 0.5);
+
+    &:hover {
+      color: lightgreen;
+    }
   }
 
   &,
@@ -22,7 +27,7 @@
   }
 
   &:hover {
-    color: white;
+    color: lightgreen;
   }
 }
 
