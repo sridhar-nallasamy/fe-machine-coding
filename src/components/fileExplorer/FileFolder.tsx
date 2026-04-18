@@ -1,9 +1,11 @@
 import { useState } from 'react';
-import styles from './styles.module.css';
-import type { FileFolderFCProps, LabelFcProps } from './types';
+import { CgFileAdd, CgFolderAdd, CgTrash } from 'react-icons/cg';
 import { FaCaretRight } from 'react-icons/fa6';
 import { FcFile, FcFolder } from 'react-icons/fc';
-import { CgFileAdd, CgFolderAdd, CgTrash } from 'react-icons/cg';
+
+import styles from './styles.module.css';
+
+import type { FileFolderFCProps, LabelFcProps } from './types';
 
 const Label: React.FC<LabelFcProps> = ({
   data: { id, name, isFolder },

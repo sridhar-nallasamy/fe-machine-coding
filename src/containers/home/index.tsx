@@ -1,7 +1,8 @@
-import styles from './styles.module.css';
-import { registry } from '../../constants';
 import { FaReact } from 'react-icons/fa6';
 import { useNavigate } from 'react-router';
+
+import styles from './styles.module.css';
+import { registry } from '../../constants';
 
 const Home = () => {
   const navigate = useNavigate();

@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+
 import styles from './styles.module.css';
 
 type CircleProps = { id: number; x: number; y: number; color: string };

@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
-import styles from './styles.module.css';
+
 import fruitNames from './data';
+import styles from './styles.module.css';
 
 const AutoComplete = () => {
   const inputRef = useRef<HTMLInputElement>(null);

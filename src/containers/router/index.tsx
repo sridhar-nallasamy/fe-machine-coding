@@ -1,7 +1,8 @@
 import { createHashRouter } from 'react-router';
-import Layout from '../layout';
-import ErrorPage from '../error';
+
 import { registry } from '../../constants';
+import ErrorPage from '../error';
+import Layout from '../layout';
 
 const router = createHashRouter([
   {

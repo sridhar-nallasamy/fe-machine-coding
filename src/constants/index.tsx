@@ -1,5 +1,6 @@
-import { type RouteObject } from 'react-router';
 import { lazy } from 'react';
+
+import type { RouteObject } from 'react-router';
 
 const Home = lazy(() => import('../containers/home'));
 const AutoComplete = lazy(() => import('../components/autoComplete'));
@@ -11,6 +12,9 @@ const FontSelect = lazy(() => import('../components/fontSelect'));
 const GrailLayout = lazy(() => import('../components/grailLayout'));
 const InfinityScroll = lazy(() => import('../components/infinityScroll'));
 const KanbanBoard = lazy(() => import('../components/kanbanBoard'));
+const MultiProgressBar = lazy(() => import('../components/multiProgressBar'));
+const MultiSelect = lazy(() => import('../components/multiSelect'));
+const MultiWizardModal = lazy(() => import('../components/multiWizardModal'));
 
 const registry: Record<
   string,
@@ -63,6 +67,21 @@ const registry: Record<
     path: 'kanbanBoard',
     Component: KanbanBoard,
     label: 'Kanban Board',
+  },
+  multiProgressBar: {
+    path: 'multiProgressBar',
+    Component: MultiProgressBar,
+    label: 'Multi Progress Bar',
+  },
+  multiSelect: {
+    path: 'multiSelect',
+    Component: MultiSelect,
+    label: 'Multi Select',
+  },
+  multiWizardModal: {
+    path: 'multiWizardModal',
+    Component: MultiWizardModal,
+    label: 'Multi Wizard Modal',
   },
 };
 
