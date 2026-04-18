@@ -7,14 +7,14 @@
 }
 
 .label {
-  color: wheat;
+  color: lightgreen;
   margin: 5rem 0 0.3rem 0;
 }
 
 .select {
   width: 18rem;
   height: 3rem;
-  border: 1px solid cyan;
+  border: 1px solid lightgreen;
   border-radius: 0.5rem;
   font-weight: 700;
   letter-spacing: 0.03rem;
@@ -27,13 +27,13 @@
 }
 
 .selectIcon {
-  color: wheat;
+  color: lightgreen;
   transition: 0.2s transform ease-in-out;
 }
 
 .selectOptionBox {
   position: absolute;
-  border: 1px solid lightsteelblue;
+  border: 1px solid lightgreen;
   padding: 0.3rem 0;
   border-radius: 0.5rem;
 }

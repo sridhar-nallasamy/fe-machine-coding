@@ -12,13 +12,17 @@
   height: 2rem;
   min-height: 2rem;
   border-radius: 0.5rem;
-  border: 1px solid #fff;
+  border: 1px solid lightgreen;
   margin: 1rem auto 0;
   padding: 0.5rem;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .loader {
-  color: yellow;
+  color: lightgreen;
   font-weight: 500;
   margin: 0.5rem 0 1.5rem;
 }

@@ -17,11 +17,17 @@ const initialData: FileFolderProps[] = [
     name: 'src',
     isFolder: true,
     children: [
-      { id: 4, name: 'App.js', isFolder: false },
-      { id: 5, name: 'index.js', isFolder: false },
+      {
+        id: 4,
+        name: 'Components',
+        isFolder: true,
+        children: [{ id: 5, name: 'File.tsx', isFolder: false }],
+      },
+      { id: 6, name: 'App.ts', isFolder: false },
+      { id: 7, name: 'index.ts', isFolder: false },
     ],
   },
-  { id: 6, name: 'package.json', isFolder: false },
+  { id: 8, name: 'package.json', isFolder: false },
 ];
 
 const removeHandler = (

@@ -18,7 +18,7 @@
 .circlesDiv {
   height: 75%;
   width: 85%;
-  border: 1px solid red;
+  border: 1px solid lightgreen;
   margin: auto;
   position: relative;
 }
