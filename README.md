@@ -38,6 +38,10 @@ A frontend machine coding round optimal solutions
 | `13` | Progress Bar            |      [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/progressBar)      |      [📝](./src/components/progressBar/index.tsx)      |
 | `14` | Progress Bar Multi      |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/progressBarMulti)    |   [📝](./src/components/progressBarMulti/index.tsx)    |
 | `15` | Scroll Effect           |     [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/scrollEffect)      |     [📝](./src/components/scrollEffect/index.tsx)      |
+| `16` | Shape Select            |      [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/shapeSelect)      |      [📝](./src/components/shapeSelect/index.tsx)      |
+| `17` | Single Day Events       |    [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/singleDayEvents)    |    [📝](./src/components/singleDayEvents/index.tsx)    |
+| `18` | Stop Watch              |       [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/stopWatch)       |       [📝](./src/components/stopWatch/index.tsx)       |
+| `19` | Tic Tac Toe             |       [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/ticTacToe)       |       [📝](./src/components/ticTacToe/index.tsx)       |
 
 ---
 
