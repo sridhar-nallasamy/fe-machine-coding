@@ -21,20 +21,23 @@ A frontend machine coding round optimal solutions
 
 ### 📑 Problems List
 
-|  #   | Name               |                                      Live                                      |                       Code                        |
-| :--: | :----------------- | :----------------------------------------------------------------------------: | :-----------------------------------------------: |
-| `1`  | Auto Complete      |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/autoComplete)   |   [📝](./src/components/autoComplete/index.tsx)   |
-| `2`  | Calendar           |     [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/calendar)     |     [📝](./src/components/calendar/index.tsx)     |
-| `3`  | Chrome Tab         |    [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/chromeTab)     |    [📝](./src/components/chromeTab/index.tsx)     |
-| `4`  | Draw Circle        |    [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/darwCircle)    |    [📝](./src/components/drawCircle/index.tsx)    |
-| `5`  | File Explorer      |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/fileExplorer)   |   [📝](./src/components/fileExplorer/index.tsx)   |
-| `6`  | Font Select        |    [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/fontSelect)    |    [📝](./src/components/fontSelect/index.tsx)    |
-| `7`  | Grid Layout        |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/grailLayout)    |   [📝](./src/components/grailLayout/index.tsx)    |
-| `8`  | Infinity Scroll    |  [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/infinityScroll)  |  [📝](./src/components/infinityScroll/index.tsx)  |
-| `9`  | Kanban Board       |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/kanbanBoard)    |   [📝](./src/components/kanbanBoard/index.tsx)    |
-| `10` | Multi Progress Bar | [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/multiProgressBar) | [📝](./src/components/multiProgressBar/index.tsx) |
-| `11` | Multi Select       |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/multiSelect)    |   [📝](./src/components/multiSelect/index.tsx)    |
-| `12` | Multi Wizard Modal | [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/multiWizardModal) | [📝](./src/components/multiWizardModal/index.tsx) |
+|  #   | Name                    |                                        Live                                         |                          Code                          |
+| :--: | :---------------------- | :---------------------------------------------------------------------------------: | :----------------------------------------------------: |
+| `1`  | Auto Complete           |     [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/autoComplete)      |     [📝](./src/components/autoComplete/index.tsx)      |
+| `2`  | Calendar                |       [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/calendar)        |       [📝](./src/components/calendar/index.tsx)        |
+| `3`  | Chrome Tab              |       [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/chromeTab)       |       [📝](./src/components/chromeTab/index.tsx)       |
+| `4`  | Draw Circle             |      [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/darwCircle)       |      [📝](./src/components/drawCircle/index.tsx)       |
+| `5`  | File Explorer           |     [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/fileExplorer)      |     [📝](./src/components/fileExplorer/index.tsx)      |
+| `6`  | Font Select             |      [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/fontSelect)       |      [📝](./src/components/fontSelect/index.tsx)       |
+| `7`  | Grid Layout             |      [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/grailLayout)      |      [📝](./src/components/grailLayout/index.tsx)      |
+| `8`  | Infinity Scroll         |    [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/infinityScroll)     |    [📝](./src/components/infinityScroll/index.tsx)     |
+| `9`  | Kanban Board            |      [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/kanbanBoard)      |      [📝](./src/components/kanbanBoard/index.tsx)      |
+| `10` | Multi Select            |      [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/multiSelect)      |      [📝](./src/components/multiSelect/index.tsx)      |
+| `11` | Multi Wizard Modal      |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/multiWizardModal)    |   [📝](./src/components/multiWizardModal/index.tsx)    |
+| `12` | Nested Hierarchy Select | [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/nestedHierarchySelect) | [📝](./src/components/nestedHierarchySelect/index.tsx) |
+| `13` | Progress Bar            |      [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/progressBar)      |      [📝](./src/components/progressBar/index.tsx)      |
+| `14` | Progress Bar Multi      |   [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/progressBarMulti)    |   [📝](./src/components/progressBarMulti/index.tsx)    |
+| `15` | Scroll Effect           |     [🔗](https://sridhar-nallasamy.github.io/fe-machine-coding/#/scrollEffect)      |     [📝](./src/components/scrollEffect/index.tsx)      |
 
 ---
 
