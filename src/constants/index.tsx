@@ -12,9 +12,14 @@ const FontSelect = lazy(() => import('../components/fontSelect'));
 const GrailLayout = lazy(() => import('../components/grailLayout'));
 const InfinityScroll = lazy(() => import('../components/infinityScroll'));
 const KanbanBoard = lazy(() => import('../components/kanbanBoard'));
-const MultiProgressBar = lazy(() => import('../components/multiProgressBar'));
 const MultiSelect = lazy(() => import('../components/multiSelect'));
 const MultiWizardModal = lazy(() => import('../components/multiWizardModal'));
+const NestedHierarchySelect = lazy(
+  () => import('../components/nestedHierarchySelect'),
+);
+const ProgressBar = lazy(() => import('../components/progressBar'));
+const ProgressBarMulti = lazy(() => import('../components/progressBarMulti'));
+const ScrollEffect = lazy(() => import('../components/scrollEffect'));
 
 const registry: Record<
   string,
@@ -68,11 +73,6 @@ const registry: Record<
     Component: KanbanBoard,
     label: 'Kanban Board',
   },
-  multiProgressBar: {
-    path: 'multiProgressBar',
-    Component: MultiProgressBar,
-    label: 'Multi Progress Bar',
-  },
   multiSelect: {
     path: 'multiSelect',
     Component: MultiSelect,
@@ -82,6 +82,26 @@ const registry: Record<
     path: 'multiWizardModal',
     Component: MultiWizardModal,
     label: 'Multi Wizard Modal',
+  },
+  nestedHierarchySelect: {
+    path: 'nestedHierarchySelect',
+    Component: NestedHierarchySelect,
+    label: 'Nested Hierarchy Select',
+  },
+  progressBar: {
+    path: 'progressBar',
+    Component: ProgressBar,
+    label: 'Progress Bar',
+  },
+  progressBarMulti: {
+    path: 'progressBarMulti',
+    Component: ProgressBarMulti,
+    label: 'Progress Bar Multiple',
+  },
+  scrollEffect: {
+    path: 'scrollEffect',
+    Component: ScrollEffect,
+    label: 'Scroll Effect',
   },
 };
 
