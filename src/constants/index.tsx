@@ -20,6 +20,10 @@ const NestedHierarchySelect = lazy(
 const ProgressBar = lazy(() => import('../components/progressBar'));
 const ProgressBarMulti = lazy(() => import('../components/progressBarMulti'));
 const ScrollEffect = lazy(() => import('../components/scrollEffect'));
+const ShapeSelect = lazy(() => import('../components/shapeSelect'));
+const SingleDayEvents = lazy(() => import('../components/singleDayEvents'));
+const StopWatch = lazy(() => import('../components/stopWatch'));
+const TicTacToe = lazy(() => import('../components/ticTacToe'));
 
 const registry: Record<
   string,
@@ -102,6 +106,26 @@ const registry: Record<
     path: 'scrollEffect',
     Component: ScrollEffect,
     label: 'Scroll Effect',
+  },
+  shapeSelect: {
+    path: 'shapeSelect',
+    Component: ShapeSelect,
+    label: 'Shape Select',
+  },
+  singleDayEvents: {
+    path: 'singleDayEvents',
+    Component: SingleDayEvents,
+    label: 'Single Day Events',
+  },
+  stopWatch: {
+    path: 'stopWatch',
+    Component: StopWatch,
+    label: 'Stop Watch',
+  },
+  ticTacToe: {
+    path: 'ticTacToe',
+    Component: TicTacToe,
+    label: 'Tic Tac Toe',
   },
 };
 
