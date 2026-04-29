@@ -30,10 +30,10 @@ const MultiSelect = () => {
     setSelected((prev) => {
       const resultSet = new Set(prev);
 
-      if (prev.has(id)) {
-        prev.delete(id);
+      if (resultSet.has(id)) {
+        resultSet.delete(id);
       } else {
-        prev.add(id);
+        resultSet.add(id);
       }
 
       return resultSet;
